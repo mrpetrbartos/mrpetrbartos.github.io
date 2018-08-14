@@ -1,0 +1,193 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 
+*
+* konec resetu
+*
+*/
+body {
+	font-family: 'Playfair Display', serif;
+}
+
+nav ul{
+	text-align: right; width: 100%; background-color: white; height: 60px;
+}
+
+nav li{
+	float: right; padding-top: 1.15em;}
+
+nav ul a{
+	color: #6a6d70; padding: 0 60px 0 0; text-decoration: none; font-size: 20px; text-transform: uppercase; font-family: 'Montserrat', sans-serif;}
+
+nav ul a:hover{
+	color: #35383a;}
+
+.active{
+	color: #35383a;
+}
+.big_photo {
+	opacity: 0.5;
+    width: 100%;
+    align-self: center;
+}
+.img-container {
+    overflow: hidden;
+    max-height: 300px;
+    align-self: center;
+  }
+
+.text-container{
+	padding: 25px 50px 80px 50px;
+}
+
+.title {
+	font-size: 3em;
+	color: #32373e;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.author {
+	font-size: 1.5em;
+	padding: 10px 0 50px 0;
+}
+
+.text {
+	line-height: 1.7;
+	column-count: 2;
+	text-align: justify;
+	column-gap: 80px;
+}
+
+br {
+    display: block;
+    content: "";
+    margin-top: 10;
+}
+
+.autor{
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.profile {
+	margin-top: 20px;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	display:inline-block;
+}
+
+.jmeno{
+	font-size: 1.75em;
+	padding: 20px 0 15px 0;
+}
+
+.about{
+	font-size: 1em;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 500px;
+	line-height: 1.7;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.odkaz {
+    color: #32373e;
+    margin: 20px 20px;
+    text-decoration: none;
+    display:table;
+    height: 200px;
+    width: 200px;
+}
+
+.odkaz span {
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	font-size: 2em;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	display:table-cell;
+ 	vertical-align:middle;
+}
+
+.ref,
+.ref:visited
+{
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px dotted #000;
+}
+@media all and (max-width: 768px) {
+	.big_photo {
+		margin-top: 0px;
+	}
+	.text {
+		column-count: 1;
+	}
+}
+
+@media all and (min-width: 768px) {
+
+}
+
+@media all and (min-width: 992px) { 
+	.text-container{
+		padding: 40px 220px 80px 220px;
+	}
+}
+
+@media all and (min-width: 1200px) { 
+	.text-container{
+		padding: 60px 240px 80px 240px;
+	}
+}
