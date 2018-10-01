@@ -167,6 +167,12 @@ br {
 	color: black;
 	border-bottom: 1px dotted #000;
 }
+@media all and (max-width: 480px) {
+	.title {
+		font-size: 2.5em;
+	}
+}
+
 @media all and (max-width: 768px) {
 	.big_photo {
 		margin-top: 0px;
